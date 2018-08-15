@@ -1,0 +1,23 @@
+Teilnehmer Python Workshop Historikertag
+
+ID, Name, Vorname, Titel, Email, Institution, Anmeldung_vom,
+~~01, Thomas, Christian, — , thomas@bbaw.de, BBAW, 31.01.2018; abgemeldet 15.4.2018,~~
+02, Göttel, Sebastian, — , sebastian.goettel@bbaw.de, BBAW und DWDS, 04.02.2018,
+03, Berger, Joachim, Dr., berger@ieg-mainz.de, IEG Mainz, 06.02.2018,
+04, Hager, Frank, —, frank.hager@fernuni-hagen.de, Fernuniversität Hagen, 14.02.2018,
+05, Pollack, Friedrich, - , friedrich.pollack@serbski-institut.de, Sorbisches Institut Bautzen, 15.02.2018,
+06, Bock, Jessica, - , jessica_bock@gmx.de, -, 16.02.2018,
+~~07, Reinicke, Clara Selina, - , S.Reinicke@campus.lmu.de, Studentin LMU, 20.03.2018,~~
+08, Wagner, Hilke, - , Hilke.Wagner@geschichte.uni-giessen.de, SHK Uni Gießen, 21.03.2018,
+09, Munke, Martin, - , martin.munke@slub-dresden.de, SLUB Dresden, 21.04.2018,
+10, Huber, Rachel, - , rachel.huber@unilu.ch, Universität Luzern, 14.05.2018,
+11, Nilson, Sonja, - , sonja.nilson@its-arolsen.org, International Tracing Service Bad Arolsen, 28.05.2018,
+12, Rüttermann, Viktor, - , ruetterm@uni-muenster.de, - , 23.06.2018,
+13, König, Mareike, Dr., mkoenig@dhi-paris.fr, DHI Paris, 3.07.2018,
+14, Becker, Marvin, - , m_beck50@uni-muenster.de, Universität Münster, 12.07.2018,
+15, Stracke, Daniel, Dr., stracke@uni-muenster.de, Institut für Städtegeschichte | Uni Münster, 17.07.2018,
+16, Luszek, Marius, - , marius.luszek@gmx.de, ???, 20.07.2018,
+17, Keck, Laura-Elena, - , laura.keck@uni-leipzig.de, Universität Leipzig, 23.07.2018,
+18, Haßler, Lisa, - , l.hassler@arcor.de, - , 01.08.2018,
+19, Löhr, Johannes, - , joloehr@mail.uni-mannheim.de, WHK Zeitgeschichte Uni Mannheim, 04.08.2018,
+
