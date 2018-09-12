@@ -28,3 +28,5 @@ ID, Name, Vorname, Titel, Email, Institution, Anmeldung_vom,
 25, Feichtinger, Moritz, Dr. des, moritz.feichtinger@hist.unibe.ch, Uni Bern, 06.09.2018
 26, Weist, Lino, - , l.weist@em.uni-frankfurt.de, Uni Frankfurt, 10.09.2018
 27, Lange, Michele, - , m_lange@uni-muenster.de, Uni Münster, 11.09.2018
+28, Ludwig-Ockenfels, Cathérine, - , catherine.ludwig-ockenfels@gcsc.uni-giessen.de, 12.09.2018
+
