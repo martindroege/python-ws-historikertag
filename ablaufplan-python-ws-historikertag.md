@@ -22,13 +22,13 @@
 * Erwartungen
 * Zeitplan
 * Vorgehen
-* Ziele
+* Ziele: Warum Programmieren für Historiker?
 * Grenzen
-* Fragen erlaubt
+* Fragen erlaubt!
 * Verteilung der ausgedruckten Anleitungen
 * zwei 'Lern-Stränge' erläutern:
-  * Coding selbst
-  * Benutzung der Tools zum Coden:
+  * Selbst coden: Lernen beim Tun
+  * Benutzung der Tools zum Coden: Kennenlernen der Arbeitsumgebung
     * Kommandozeile
     * IPython
     * Notebooks
@@ -37,7 +37,6 @@
     * PIP install (?)
     * Module
     * Dokumentationen
-* Warum Programmieren für Historiker?
 
 ## Block 1: Vorbereitung
 
@@ -55,12 +54,12 @@
 
 ### b) Arbeitsumfeld einrichten und erläutern
 
-* wissenschaftliche Arbeitsumgebung Anaconda
-  * conda Packagemanager
-  * env einrichten, um Paket-Konflikte zu vermeiden
 * Arbeitsverzeichnis
   * Ordnerstruktur
   * Projektstruktur
+* wissenschaftliche Arbeitsumgebung Anaconda
+  * conda Package-Manager
+  * env einrichten, um Paket-Konflikte zu vermeiden
 * Editor einrichten
   * Bedeutung und Nutzen
 
@@ -77,10 +76,15 @@
 
 * Dauer: 10 Minuten
 
-### a) Python-Interpreter
+### a) Python-Interpreter und IPython
 
 * Terminal / Anaconda-Prompt starten
 * Python-Version
+* Syntax Highlighting
+* erweiterte Funktionen
+* Kommandozeilen-Einbindung
+* Magische Befehle
+* Vorteil und Nutzen
 * print("Hallo Welt!")
 
 ### b) Ganze Zahlen und Operatoren
@@ -97,15 +101,8 @@
 
 * Dauer: 30 Minuten
 
-### a) IPython
 
-* Syntax Highlighting
-* erweiterte Funktionen
-* Kommandozeilen-Einbindung
-* Magische Befehle
-* Vorteil und Nutzen
-
-### b) Zeichenketten / Strings
+### a) Zeichenketten / Strings
 
 * Konkatenieren
 * Speichern in Variablen
@@ -113,8 +110,9 @@
 * built-in-Funktionen / Methoden bei Strings
   * len() etc.
   * .lower etc.
+* Unterschied 2.7 und 3.x (für Strings)
 
-### c) Listen / lists
+### b) Listen / lists
 
 * Methoden
   * sort()
@@ -124,11 +122,13 @@
 * Slicing
 * Listen von Listen
 
-### d) Zuordnungen / dictionaries
+### c) Zuordnungen / dictionaries
 
 * Schlüssel-Wert-Paare
 * Zugriff auf key, value
 * Vorteil und Nutzen
+
+### d) Unveränderbare Listen
 * tuple
 * set
 
@@ -157,14 +157,15 @@
 * Kommentare (auch zur Dokumentation in der Datei)
 * Umbrechen langer Zeilen \
 * Fehlerfall / errors
-  * Fehler leicht zu identifizieren
+  * Backtrace / Fehler leicht zu identifizieren
 * Function help()
 
-### c) Jupyter Notebooks
+### c) Jupyter Notebooks und Literate Programming (das könnte länger dauern!)
 
 * Jupyter Lab einrichten und starten
 * Vorteile und Nutzen
 * grundlegende Funktionalität erläutern
+* ... ab jetzt im Notebook?
 
 ### d) Kontrollstrukturen
 
@@ -174,7 +175,7 @@
 
 ### e) aus Dateien lesen und schreiben / I/O
 
-* with open
+* with open() as:
 * encoding als parameter
 * w, r, a als parameter
 
@@ -186,13 +187,13 @@
 
 * Aufbau
 * Aufruf
-* Parameter
+* Parameter und Argumente
 * Namensräume
 * Nutzen und Vorteile
 
 ### b) Funktionen für Text-Preprocessing
 
-* siehe textpyprocess
+* siehe textpyprocess(?)
 * read_text
 * remove_punctation
 * remove_stopwords
@@ -211,13 +212,14 @@
 
 * Dauer: 60 Minuten, Pausen nach Bedarf
 
-### a) Projekt: KWIC
+### a) Projekt: Suchen und Ersetzen? Wortwolken?
 
 ### (b) Projekt: Web-Scraping)
 
 * Scraping von Blogs bei hypotheses
 * ausgetestet: sehr aufwändig!
 * besser nur auf ein Projekt konzentrieren!
+* Scraping von Hsozkult oder Wikipedia?
 
 ## Block 7: Selbsthilfe
 
