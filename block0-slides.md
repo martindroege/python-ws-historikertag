@@ -4,7 +4,7 @@ author: Martin Dröge / Ramon Voges
 date: 25. September 2018
 ---
 
-# Einführung
+# Einstieg
 
 ## Vorstellungsrunde und Erwartungen
 
@@ -14,17 +14,19 @@ date: 25. September 2018
 * kürzere Pausen
 * eine lange Pause
 
-## Ziele
+## Warum sollten HistorikerInnen programmieren?
+
+## Ziele 
 
 * Einstiegsschwelle überwinden
 * neugierig machen
 * Einblicke in Python geben
-* selber kleine Skripte schreiben
+* eigene Skripte schreiben
 
 ## Grenzen
 
 * knapper Zeitplan
-* nicht alle Einstiegsaspekte werden angesprochen
+* Grundlagen! Nicht alles kann angesprochen werden
 * kein vollständiger Programmierkurs
 
 ## Fragen sind jederzeit erwünscht!
@@ -35,14 +37,12 @@ date: 25. September 2018
 * gemeinsam Skripte schreiben
 * Vorlage der Skripte im Ausdruck
 
-## zwei 'Lern-Stränge'
+## Zwei 'Lern-Stränge'
 
-1. Skripten
-2. Benutzung der Tools zum Skripten
+1. Coden
+2. Benutzen der Tools zum Programmieren
   * Kommandozeile
+  * Anaconda
   * IPython
   * Editor (VS Code)
   * Jupyter Notebooks
-  * Anaconda
-
-## Warum sollten HistorikerInnen Programmieren?

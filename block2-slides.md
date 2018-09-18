@@ -10,15 +10,15 @@ Anaconda Prompt starten
 
 ## Python Version checken
 
-(base) C:/User/Username/python - -version
+`(base) C:/User/Username/python - -version`
 
 ## Python starten
 
-(base) C:/User/Username/python
+`(base) C:/User/Username/python`
 
 ## Hallo Welt
 
-\>>> print("Hallo Welt!")
+`\>>> print("Hallo Welt!")`
 
 ## Addieren
 

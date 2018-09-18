@@ -20,12 +20,13 @@
 
 * Vorstellungsrunde
 * Erwartungen
-* Zeitplan
-* Vorgehen
-* Ziele: Warum Programmieren für Historiker?
+* Warum Programmieren für Historiker?
+* Ziele des Workshops
 * Grenzen
+* Zeitplan
 * Fragen erlaubt!
 * Verteilung der ausgedruckten Anleitungen
+* Vorgehen
 * zwei 'Lern-Stränge' erläutern:
   * Selbst coden: Lernen beim Tun
   * Benutzung der Tools zum Coden: Kennenlernen der Arbeitsumgebung
@@ -42,7 +43,7 @@
 
 * Dauer: 20 Minuten
 
-### a) Historie, Konzept, Einsatzgebiete
+### a) Historie, Konzepte, Einsatzgebiete
 
 * lesbare Syntax
 * Rapid Prototyping
