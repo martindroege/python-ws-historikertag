@@ -22,8 +22,6 @@ for key, val in meta.find_all('div', {'class': 'hfn-item-metarow'}):
         meta_data[k] = v
 
 
-print(meta_data)
-
 review_author = bs.find('div', {'class': 'hfn-item-creator'})
 review_author = review_author.get_text()
 review_author = review_author.strip().split(',')[0]
@@ -35,17 +33,16 @@ review_content = []
 for paragraph in review:
     review_content.append(paragraph.get_text())
 
-
-print("{}: Rezension von: {}: {}, {}.".format(review_author,
-                                              meta_data['Autor(en)'],
-                                              meta_data['Titel'],
-                                              meta_data['Erschienen']))
+if 'Hrsg. v.' in meta_data.keys():
+    print("{}: Rezension von: {} (Hg.): {}, {}.".format(review_author,
+                                                        meta_data['Hrsg. v.'],
+                                                        meta_data['Titel'],
+                                                        meta_data['Erschienen']))
+else:
+    print("{}: Rezension von: {}: {}, {}.".format(review_author,
+                                                  meta_data['Autor(en)'],
+                                                  meta_data['Titel'],
+                                                  meta_data['Erschienen']))
 print()
 for para in review_content:
     print(para)
-
-# def main(id="26978"):
-#     get_html(id)
-
-# if __name__ == "__main__":
-#     main()
