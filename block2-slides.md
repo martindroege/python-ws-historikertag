@@ -10,15 +10,15 @@ Anaconda Prompt starten
 
 ## Python Version checken
 
-`(base) C:/User/Username/python - -version`
+`(base) C:/User/Username/>python --version`
 
-## Python starten
+## IPython-REPL II
 
-`(base) C:/User/Username/python`
+`(base) C:/User/Username/>ipython`
 
 ## Hallo Welt
 
-`\>>> print("Hallo Welt!")`
+`In[1]: print("Hallo Welt!")`
 
 ## Addieren
 

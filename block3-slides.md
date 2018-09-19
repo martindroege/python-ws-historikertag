@@ -1,6 +1,6 @@
 # Block 3: Datentypen
 
-## IPython starten
+## IPython-REPL II
 
 * Windows-Startmenu aufrufen
 * unter 'A': Anaconda auswählen
@@ -8,23 +8,23 @@
 
 ## Navigieren im Dateiensystem
 
-In [1]: pwd
+`In [1]: pwd`
 
-Out[1]: 'C:/Users/Martin/Documents'
+`Out[1]: 'C:/Users/Martin/Documents'`
 
-In [2]: cd ..
+`In [2]: cd ..`
 
-C:/Users/Martin
+`C:/Users/Martin`
 
-In [3]: cd Documents
+`In [3]: cd Documents`
 
-C:/Users/Martin/Documents
+`C:/Users/Martin/Documents`
 
 ## Magische Befehle
 
-%magic
+`%magic`
 
-%cpaste
+`%cpaste`
 
 ## Zeichenketten / Strings
 
@@ -107,7 +107,7 @@ word_freq = ("Wort A", 42)
 type(word_freq)
 ```
 
-## Indexieren Strings
+## Indexieren von Strings
 
 ```Python
 "Historikertag"[1]
@@ -125,7 +125,7 @@ type(word_freq)
 "Historikertag"[3:6]
 ```
 
-## Indexieren Listen
+## Indexieren von Listen
 
 ```Python
 list_2 = ["Banane", "Apfel", "Birne"]
@@ -182,3 +182,5 @@ sum(dict_1.values())
 
 5 > 7 or "Mauer" == "Haus"
 ```
+
+

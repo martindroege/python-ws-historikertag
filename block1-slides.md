@@ -14,23 +14,27 @@
 * 1994 erschien die Version 1.0
 * ursprünglicher Zweck: Programmieren beibringen
 * Name geht nicht auf die Schlange, sondern auf Monty Python zurück
-* 3. Dezember 2008: Version 3.0 -> vollständig auf Unicode umgestellt
+* Dezember 2008: Version 3.0 -> vollständig auf Unicode umgestellt
 * Juli 2018: Guido van Rossum tritt als "Benevolent Dictator for Life" (BDFL)
 
 ## Python als Skriptsprache
 
-+----------------------------+-----------------------------------+
-| Skript                     | Programm                          |
-+============================+===================================+
+Skript                      Programm          
+------                      --------------------
+z.B. Python                 z.B. Java oder C++                       
+Interpreter                 Compiler                                 
+höhere Programmiersprachen  maschinennahe Programmiersprachen        
+anpassungsfähig             aufwendiger anzupassen, schwer zu debuggen
 
-| z.B. Python                | z.B. Java oder C++                       |
-| Interpreter                | Compiler                                 |
-| höhere Programmiersprachen | maschinennahe Programmiersprachen        |
-| anpassungsfähig            | aufwendiger anzupassen, schwer zu debuggen |
-| dynamische Typisierung     | feste Typisierung                        |
-| leichter zu erlernen       | schwerer zu erlernen                     |
+## Python als Skriptsprache
 
-* Python-Skripte erkennbar an der Endung: `skript_name.py`
+Skript                      Programm          
+------                      --------------------
+dynamische Typisierung      feste Typisierung                        
+leichter zu erlernen        schwerer zu erlernen                 
+
+
+Python-Skripte erkennbar an der Endung: `skript_name.py`
 
 
 ## Einsatzgebiete I
@@ -54,21 +58,24 @@
 
 ## Arbeitsumgebung
 
-### Das Terminal
+## Das Terminal
 
-* `cd <Verzeichnis>` - wechselt das Verzeichnis
+* `cd [Verzeichnis]` - wechselt das Verzeichnis
 * `cd ~` - wechselt in das Heimat-Verzeichnis
-* `mkdir <Verzeichnis>` - erstellt das <Verzeichnis>
-* `touch <Datei>` / `New-Item <Datei> -type file` – erstellt die <Datei>
-* `rm <Datei>` - löscht (unwiederbringlich!) die <Datei>
-* `rm -r <Verzeichnis>` - löscht (unwiederbringlich!) das <Verzeichnis>
+* `mkdir [Verzeichnis]` - erstellt das [Verzeichnis]
+* `touch [Datei]` / `New-Item [Datei] -type file` – erstellt die [Datei]
+* `rm [Datei]` - löscht (unwiederbringlich!) die [Datei]
+* `rm -r [Verzeichnis]` - löscht (unwiederbringlich!) das [Verzeichnis]
+
+## Das Terminal
+
 * `ls` - listet den Inhalt des aktuellen Verzeichnisses auf
 * `ls -lah` – wie `ls`, nur ausführlicher
 * `pwd` - gibt den Namen des aktuellen Verzeichnisses an
-* `man <Befehl>` - Hilfeseite zum <Befehl>
-* `pydoc <keyword>` - Python-Dokumentation für <keyword>
+* `man [Befehl]` - Hilfeseite zum [Befehl]
+* `pydoc [keyword]` - Python-Dokumentation für [keyword]
 
-### Arbeitsumgebung schaffen
+## Arbeitsumgebung schaffen
 
 ``` shell
 cd ~
@@ -76,34 +83,37 @@ mkdir Skripte
 cd Skripte
 ```
 
-### Anaconda
+## Anaconda
 
-#### `conda` - Package-Manager
+## `conda` - Package-Manager
 
-```shell
-conda search <Paket>                       # sucht das <Paket> auf dem Server
-conda install <Paket1> <Paket2> etc.       # installiert die Pakete
-conda install -c conda-forge <Paket1> etc. # installiert die Pakete von dem Server conda-forge
-conda install -n <env> <Paket>             # installiert das Paket in die Umgebung <env>
-conda list                                 # listet die Pakete auf
-conda update <Paket>/python/conda          # updatet <Paket>, Python oder conda
-conda remove <Paket>                       # entfernt das <Paket>
-pip3 install <Paket>                       # installiert mit Pip das <Paket>
-```
+* `conda search [Paket]` – sucht das [Paket] auf dem Server
+* `conda install [Paket1] [Paket2] etc.` – installiert die Pakete
+* `conda install -c conda-forge [Paket1] etc.` – installiert die Pakete von dem Server conda-forge
+* `conda install -n [env] [Paket]` – installiert das Paket in die Umgebung [env]
+* `conda list` – listet die Pakete auf
 
-#### Virtuelle Umgebungen
+## `conda` - Package-Manager
 
-```shell
-conda create -n <env>                           # erschafft die Umgebung <env>
-conda create -n <env> python=3.7                # wie oben, aber mit bestimmter Python-Version
-conda info --envs                               # Informationen zu die Umgebungen
-conda list --explicit > spec-file.txt           # speichert die Pakete der Umgebung in <spec-file.txt>
-conda install --name <env> --file spec-file.txt # installiert genau diese Umgebung
-activate <env>                                  # aktiviert die Umgebung auf Windows
-source activate <env>                           # aktiviert die Umgebung auf MacOS und Linux
-deactivate                                      # deaktiviert die Umgebung auf Windows
-source deactivate                               # aktiviert die Umgebung auf MacOS und Linux
-```
+* `conda update [Paket]/python/conda` – updatet [Paket], Python oder conda
+* `conda remove [Paket]` – entfernt das [Paket]
+* `pip3 install [Paket]` – installiert mit Pip das [Paket]
+
+
+## Virtuelle Umgebungen
+
+* `conda create -n [env]` – erschafft die Umgebung [env]
+* `conda create -n [env] python=3.7` – wie oben, aber mit bestimmter Python-Version
+* `conda info --envs` – Informationen zu die Umgebungen
+* `conda list --explicit > spec-file.txt` – speichert die Pakete der Umgebung in [spec-file.txt]
+
+## Virtuelle Umgebungen
+
+* `conda install --name <env> --file spec-file.txt` – installiert genau diese Umgebung
+* `activate [env]` – aktiviert die [Umgebung] auf Windows
+* `source activate [env]` – aktiviert die [Umgebung] auf MacOS und Linux
+* `deactivate` – deaktiviert die [Umgebung] auf Windows
+* `source deactivate` – deaktiviert die [Umgebung] auf MacOS und Linux
 
 
 ## Editor oder IDE
