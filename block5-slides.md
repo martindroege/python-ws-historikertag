@@ -9,9 +9,7 @@ dabei helfen *libraries* wie:
 
 ## Buchempfehlung
 
-Steven Bird, Ewan Klein, Edward Loper,
-
-Natural Language Processing with Python
+Steven Bird, Ewan Klein, Edward Loper: Natural Language Processing with Python
 
 – Analyzing Text with the Natural Language Toolkit, O'Reilly Media, 2009 *[updated to Python 3 and NLTK 3]*.
 

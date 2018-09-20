@@ -40,7 +40,7 @@ jahr = 2018 - int(alter)
 print(f"""
 \nHallo {name}, schön, dass du da bist!\n
 Du bist {jahr} geboren.\n
-{ort} ist der beste Ort auf dem Planet.""")
+{ort} ist der beste Ort auf dem Planeten.""")
 ```
 
 ## Skript aufrufen
@@ -129,19 +129,23 @@ for x in range(1, 11):
         print(f"{x} ist eine ungerade Zahl.")
 ```
 
-## Dateien lesen und schreiben
+## Dateien lesen 1
 
 ```Python
 f = open("DATEI.txt", "r", encoding="utf-8")
 grundgesetz = f.read()
 f.close()
+```
 
+## Dateien lesen 2
+
+```Python
 with open("DATEI.txt", "w", encoding="utf-8") as f:
     f.read()
 ```
 
 ## I/O Parameter
 
-* "r" = lesen
-* "w" = schreiben
+* "r" = read / lesen
+* "w" = write / schreiben
 * "a" = append / anhängen
