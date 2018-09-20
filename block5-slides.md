@@ -1,4 +1,4 @@
-# Textanalyse mit Python
+# Block 5: Textanalyse
 
 ## Textanalyse mit Python 
 
@@ -7,24 +7,7 @@ dabei helfen *libraries* wie:
 
 * NLTK, gensim, pattern, textblob, spacy
 
-## Buchempfehlung
-
-Steven Bird, Ewan Klein, Edward Loper: Natural Language Processing with Python
-
-– Analyzing Text with the Natural Language Toolkit, O'Reilly Media, 2009 *[updated to Python 3 and NLTK 3]*.
-
-Online:
-
-[http://www.nltk.org/book/](http://www.nltk.org/book/)
-
-## Textanalyse mit Python
-
-Tutorial unter:
-[http://www.karsdorp.io/python-course/](http://www.karsdorp.io/python-course/)
-
-# Block 5: eigene Funktionen schreiben
-
-## Vorbereitung
+## Vorbereitung 1: Von Hand
 
 * [https://www.bundestag.de/gg](https://www.bundestag.de/gg)
 * Text kopieren
@@ -33,7 +16,7 @@ Tutorial unter:
 * speichern mit UTF-8-Codierung
 * Speicherort: Arbeitsverzeichnis
 
-## Web Scraping
+## Vorbereitung 2: Porgrammatisch
 
 ```Python
 import requests
@@ -44,7 +27,7 @@ response = requests.get(url)
 html = response.text
 ```
 
-## Web Scraping
+## Vorbereitung 2: Porgrammatisch
 
 ```Python
 soup = BeautifulSoup(html, "html.parser")
@@ -66,14 +49,13 @@ infile.close()
 ## Text vorbereiten
 
 ```Python
+import string
 def remove_punc(text):
-	punctuation = "!@#$%^&*()_*+={}[]:;"\'|,.?/~"
-	for marker in punctuation:
-	    text = text.replace(marker, "")
+	text = text.replace(string.punctuation, "")
 	return text
 ```
 
-## Text säubern
+## Text umwandeln
 
 ```Python
 def clean_text(text):
@@ -82,21 +64,21 @@ def clean_text(text):
 text = clean_text(text)
 ```
 
-## Wörter zählen
-
-```Python
-text.count("gesetz")
-```
-
-## Wörter zählen
+## Wörter zählen 1
 
 ```Python
 words = text.split()
+words.count("gesetz")
+```
+
+## Wörter zählen 2
+
+```Python
 print(len(words))
 print(words[:100])
 ```
 
-## Funktion Wörter zählen
+## Funktion Wörter zählen 1
 
 ```Python
 def count_in_list(item_to_count, list_to_search):
@@ -109,14 +91,14 @@ def count_in_list(item_to_count, list_to_search):
 print(count_in_list("freiheit", words))
 ```
 
-## Funktion Wörter zählen
+## Funktion Wörter zählen 2
 
 ```Python
 for word in words[:100]:
 	print(word, count_in_list(word, words))
 ```
 
-## Funktion Wörter zählen
+## Funktion Wörter zählen 3
 
 ```Python
 def counter(list_to_search):
@@ -139,6 +121,10 @@ def counter_dict(list_to_search):
 		counts[word] = 1
 	return counts
 ```
+
+
+
+
 
 ## Ergebnis in Datei schreiben
 

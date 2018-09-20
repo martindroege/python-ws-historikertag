@@ -12,7 +12,7 @@ Anaconda Prompt starten
 
 `(base) C:/User/Username/>python --version`
 
-## IPython-REPL II
+## IPython-REPL
 
 `(base) C:/User/Username/>ipython`
 

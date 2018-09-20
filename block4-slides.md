@@ -49,7 +49,7 @@ Du bist {jahr} geboren.\n
 * ins Verzeichnis navigieren
 * python DATEINAME.py
 
-## Anweisungsaufbau und Einrückungen
+## Anweisungsaufbau und Blöcke
 
 ANWEISUNGSKOPF:**DOPPELPUNKT**
 

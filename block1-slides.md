@@ -42,7 +42,7 @@ Python-Skripte erkennbar an der Endung: `skript_name.py`
 * Universitäten und Forschungseinrichtungen
 * Technologie-Branche
 * Industrie
-* DataScience
+* Data Science
 
 
 ## Einsatzgebiete II

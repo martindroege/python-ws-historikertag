@@ -1,5 +1,5 @@
 ---
-title: Einführung in das Programmieren für HistorikerInnen
+title: Einführung in das Programmieren für Historiker*Innen
 author: Martin Dröge / Ramon Voges
 date: 25. September 2018
 ---
@@ -14,7 +14,7 @@ date: 25. September 2018
 * kürzere Pausen
 * eine lange Pause
 
-## Warum sollten HistorikerInnen programmieren?
+## Warum sollten Historiker*Innen programmieren?
 
 ## Ziele 
 
