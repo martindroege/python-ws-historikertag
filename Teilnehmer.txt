@@ -30,3 +30,6 @@ ID, Name, Vorname, Titel, Email, Institution, Anmeldung_vom,
 27, Lange, Michele, - , m_lange@uni-muenster.de, Uni Münster, 11.09.2018
 28, Ludwig-Ockenfels, Cathérine, - , catherine.ludwig-ockenfels@gcsc.uni-giessen.de, 12.09.2018
 29, Heyer, Anne, - , aheyer@pa.uc3m.es, Universität Madrid, 12.09.2018
+30, Pons Marti, Vincente, - , ponsmarti@soz.uni-frankfurt.de, Universität Frankfurt, 16.09.2018
+31, Kiechle, Oliver, Dr., kiechle@phil-fak.uni-duesseldorf.de, Uni Düsseldorf, 18.09.2018
+32, Thorade, Nora, - , thorade@hsu-hh.de, Uni der Bundeswehr Hamburg, 18.09.2018
