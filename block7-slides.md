@@ -2,7 +2,7 @@
 
 ## algorithmisches Denken
 
-* Problem in Schritte zerlegen
+* Problem in einzelen Schritte zerlegen
 * Schritte ausformulieren
 * einzelne Bauteile zusammenstellen
 
@@ -10,14 +10,14 @@
 
 TEXT =  "text"
 LOOP OVER TEXT
-    IF ELEMENT STARTS WITH A
+    IF ELEMENT IS VOWEL
         PRINT ELEMENT
 
 ## Vorteil
 
 * Vorgehen wird klarer
+* Konzepte verstehen
 * Übertragbar auf andere Programmiersprachen
-* Konzepte kennen
 
 ## Tutorials
 
