@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 """ Scraping Hsozkult.de """
 import re
@@ -33,16 +34,17 @@ review_content = []
 for paragraph in review:
     review_content.append(paragraph.get_text())
 
-if 'Hrsg. v.' in meta_data.keys():
-    print("{}: Rezension von: {} (Hg.): {}, {}.".format(review_author,
-                                                        meta_data['Hrsg. v.'],
-                                                        meta_data['Titel'],
-                                                        meta_data['Erschienen']))
-else:
-    print("{}: Rezension von: {}: {}, {}.".format(review_author,
-                                                  meta_data['Autor(en)'],
-                                                  meta_data['Titel'],
-                                                  meta_data['Erschienen']))
-print()
-for para in review_content:
-    print(para)
+with open('rezension.txt', 'w', encoding='utf-8') as f:
+    if 'Hrsg. v.' in meta_data.keys():
+        f.write("{}: Rezension von: {} (Hg.): {}, {}.".format(review_author,
+                                                            meta_data['Hrsg. v.'],
+                                                            meta_data['Titel'],
+                                                            meta_data['Erschienen']))
+    else:
+        f.write("{}: Rezension von: {}: {}, {}.".format(review_author,
+                                                      meta_data['Autor(en)'],
+                                                      meta_data['Titel'],
+                                                      meta_data['Erschienen']))
+    f.write("\n\n")
+    f.write("\n".join(review_content))
+
