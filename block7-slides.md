@@ -2,7 +2,7 @@
 
 ## algorithmisches Denken
 
-* Problem in einzelen Schritte zerlegen
+* Problem in einzelne Schritte zerlegen
 * Schritte ausformulieren
 * einzelne Bauteile zusammenstellen
 
