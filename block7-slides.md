@@ -9,8 +9,11 @@
 ## Pseudo Code
 
 TEXT =  "text"
+
 LOOP OVER TEXT
+
     IF ELEMENT IS VOWEL
+    
         PRINT ELEMENT
 
 ## Vorteil
