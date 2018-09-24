@@ -34,3 +34,4 @@ ID, Name, Vorname, Titel, Email, Institution, Anmeldung_vom,
 31, Kiechle, Oliver, Dr., kiechle@phil-fak.uni-duesseldorf.de, Uni Düsseldorf, 18.09.2018
 32, Thorade, Nora, - , thorade@hsu-hh.de, Uni der Bundeswehr Hamburg, 18.09.2018
 33, Engel, Gordian, - , gordian@engel-family.eu, - , 24.09.2018
+34, Schlingheider, Sebastian, - , sebastian.schlingheider@web.de, SHK ZZF Potsdam, 24.09.2018 
